@@ -4,7 +4,7 @@ var name='sravani';
 const panNumber=123456789;
 console.log(x); //100
 console.log(name);//sravani
-console.log(panNumber);
+console.log(panNumber); //123456789
 // 2. Variable Names
 // _userID (valid we can start variable name with underscore)
 // myVariable (valid we can use camelcasing)
@@ -94,9 +94,9 @@ let x2=5; //5
 let y2=x2++;
 let p=5;
 let q=++p;
-console.log('x2',x2); //5
+console.log('x2',x2); //6
 console.log('y2',y2); //5
-console.log('p',p);  //5
+console.log('p',p);  //6
 console.log("q",q); //6
 
 // 12.Comaprision operators
