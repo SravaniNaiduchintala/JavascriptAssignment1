@@ -2,7 +2,9 @@
 let x=100;
 var name='sravani';
 const panNumber=123456789;
-
+console.log(x); //100
+console.log(name);//sravani
+console.log(panNumber);
 // 2. Variable Names
 // _userID (valid we can start variable name with underscore)
 // myVariable (valid we can use camelcasing)
@@ -38,7 +40,7 @@ console.log(x1,typeof(x1));
 // 1. "42" -> string (primitive data type)
 // 2. 42 -> number (primitive data type)
 // 3.true -> boolean (primitive data type)
-// 4.undefined -> primitive data type
+// 4.undefined -> undefined (primitive data type)
 // ["apple","banana"] -> array (object) (Non primitive data type)
 // null (object primitive data type)
 
@@ -69,8 +71,14 @@ console.warn("Hello, Javascript!");
 console.error("Hello, Javascript!");
 
 // 9.Comments
-// Single-line Comments ---> //
-// Multi-line comments ---> /*.....*/
+// Single-line Comments ---> // I have learned Javascript Building blocks.
+// Multi-line comments --->
+/*
+    Javascript language is a programming language which is used for web development and it is a serverside 
+    and client side scripting language.
+    Today I have learned Variables (initialization,declaration),data Types (Primitive and non-Primitive).
+    Arithmetic operators,Assignment operators,comparision operators
+ */
 
 // 10.Assignment Operators
 let num=10;
@@ -84,9 +92,11 @@ console.log(num%=4); //3.6
 // 11.Assignment Operators
 let x2=5; //5
 let y2=x2++;
-console.log("y2",y2); //5
 let p=5;
 let q=++p;
+console.log('x2',x2); //5
+console.log('y2',y2); //5
+console.log('p',p);  //5
 console.log("q",q); //6
 
 // 12.Comaprision operators
@@ -96,12 +106,16 @@ let num2=20;
 let num3=10;
 let str2='10';
 let std_name2='Madhavi';
-console.log(std_name==std_name2);
-console.log(num1==num2);
-console.log(num1==num3);
-console.log(num1==str2);
-console.log(num1===str2);
-console.log(num1 != num2);
-console.log(num1 !== num3);
-console.log(num1 != str2);
-console.log(num1 !== str2);
+console.log(std_name==std_name2); //true
+console.log(num1==num2); //false
+console.log(num1==num3); //true
+console.log(num1==str2); //true
+console.log(num1===str2); //false
+console.log(num1 != num2); //true
+console.log(num1 !== num3); //false
+console.log(num1 != str2); // false
+console.log(num1 !== str2); //true
+console.log(num1 > num2); //false
+console.log(num1 < num2); //true
+console.log(num1<=num3); //true because we are checking greaterthan or equal as values are equal we get true.
+console.log(num1 >= str2); // true irrespective of type it is checking.
